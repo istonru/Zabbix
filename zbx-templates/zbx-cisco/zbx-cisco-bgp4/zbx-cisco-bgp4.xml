@@ -32,6 +32,9 @@
                     <delay>300</delay>
                     <status>0</status>
                     <allowed_hosts/>
+					<snmpv3_contextname/>
+					<snmpv3_authprotocol/>
+					<snmpv3_privprotocol/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
                     <snmpv3_authpassphrase/>
@@ -64,6 +67,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -87,6 +93,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Accepted prefixes for VPNv4 peer $1</name>
@@ -103,6 +110,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -126,6 +136,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Administrative status for peer $1</name>
@@ -142,6 +153,9 @@
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -167,6 +181,7 @@
                             <valuemap>
                                 <name>ciscoBgpPeerAdminStatus</name>
                             </valuemap>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Advertised prefixes for IPv4 peer $1</name>
@@ -183,6 +198,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -206,6 +224,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Advertised prefixes for VPNv4 peer $1</name>
@@ -222,6 +241,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -245,6 +267,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>AS Name for IPv4 peer {#SNMPVALUE}</name>
@@ -261,6 +284,9 @@
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -284,6 +310,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Denied prefixes for IPv4 peer $1</name>
@@ -300,6 +327,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -323,6 +353,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Denied prefixes for VPNv4 peer $1</name>
@@ -339,6 +370,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -362,6 +396,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Established time for peer $1</name>
@@ -378,6 +413,9 @@
                             <allowed_hosts/>
                             <units>uptime</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -401,6 +439,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Operational status for peer $1</name>
@@ -417,6 +456,9 @@
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -442,6 +484,7 @@
                             <valuemap>
                                 <name>ciscoBgpPeerState</name>
                             </valuemap>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Prefixes limit for IPv4 peer $1</name>
@@ -458,6 +501,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -481,6 +527,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Prefixes limit for VPNv4 peer $1</name>
@@ -497,6 +544,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -520,6 +570,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Remote AS for peer $1</name>
@@ -536,6 +587,9 @@
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -559,6 +613,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Suppressed prefixes for IPv4 peer $1</name>
@@ -575,6 +630,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -598,6 +656,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>Suppressed prefixes for VPNv4 peer $1</name>
@@ -614,6 +673,9 @@
                             <allowed_hosts/>
                             <units>Prefix</units>
                             <delta>0</delta>
+							<snmpv3_contextname/>
+							<snmpv3_authprotocol/>
+							<snmpv3_privprotocol/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
                             <snmpv3_authpassphrase/>
@@ -637,6 +699,7 @@
                                 </application>
                             </applications>
                             <valuemap/>
+							<logtimefmt/>
                         </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes>
